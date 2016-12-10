@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.sree.kafka</groupId>
+	<artifactId>kafka-connectors</artifactId>
+	<version>0.0.1</version>
+	<packaging>pom</packaging>
+
+	<name>kafka-connectors</name>
+	<url>http://maven.apache.org</url>
+
+	<developers>
+		<developer>
+			<name>Srijith Sasidharan</name>
+			<email>srssreejith@gmail.com</email>
+		</developer>
+	</developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<kafka.version>0.10.0.1</kafka.version>
+		<junit.version>3.8.1</junit.version>
+		<slf4j.version>1.7.14</slf4j.version>
+		<json.version>20160810</json.version>
+		<utils.version>0.0.1</utils.version>
+	</properties>
+	<dependencies>
+
+	</dependencies>
+	<modules>
+		<module>utils</module>
+		<module>kafka-connect-jmx</module>
+	</modules>
+</project>
