@@ -16,11 +16,10 @@ Configuration
 	` tasks.max=1 `
 * Kafka topic to push the messages
 	` kafka.topic=jmx-test `
-* JMX is running for which application ?  If you want JMX metrics for Kafka , then ` jmx.servicename=kafka ` If you want JMX metrics for Flink , then ` jmx.servicename=flink ` etc.. This configuration helps you group the metrics coming from different JMX services.
-	` jmx.servicename=kafka `
-* If jmx.servicename is kafka , then you have to provide zookeeper.host, Else zookeeper.host parameter is not required.
+* JMX is running for which application ?  If you want JMX metrics for Kafka , then ` jmx.servicename=kafka `. If you want JMX metrics for Flink , then ` jmx.servicename=flink ` etc.. This configuration helps you group the metrics coming from different JMX services.
+* If ` jmx.servicename ` is kafka , then you have to provide zookeeper.host, else zookeeper.host parameter is not required.
 	` zookeeper.host=localhost:2181 `
-* If jmx.servicename is not kafka , then below property is mandatory. Provide the full JMX URL separated by comma
+* If ` jmx.servicename ` is not kafka , then below property is mandatory. Provide the full JMX URL separated by comma
 	` jmx.url=54.238.221.37:8080,54.238.237.66:8080 `
 	
 Sample Output
