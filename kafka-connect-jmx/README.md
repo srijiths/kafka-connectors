@@ -23,13 +23,13 @@ Configuration
 	` jmx.url=54.238.221.37:8080,54.238.237.66:8080 `
 	
 * Advanced Configurations
-	* JMX username `jmx.username `
-	* JMX password `jmx.password`
-	* Wait time out `jmx.wait_timeout`
-	* Fetch time out `jmx.fetch_timeout`
-	* RMI connect time out `rmi.connect_timeout`
-	* RMI handshake time out `rmi.handshake_timeout`
-	* RMI response time out `rmi.response_timeout` 
+	* JMX username `jmx.username=test`
+	* JMX password `jmx.password=test`
+	* Wait time out `jmx.wait_timeout=3000`
+	* Fetch time out `jmx.fetch_timeout=3000`
+	* RMI connect time out `rmi.connect_timeout=3000`
+	* RMI handshake time out `rmi.handshake_timeout=3000`
+	* RMI response time out `rmi.response_timeout=3000` 
 	
 	
 Sample Output
