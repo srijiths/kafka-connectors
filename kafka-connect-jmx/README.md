@@ -11,7 +11,7 @@ Configuration
 * Name of the connector
 	` name=jmx-source `
 * Connector class to invoke the connector
-	` connector.class=com.sree.kafka.connectors.jmx.JmxConnector `
+	` connector.class=com.sree.kafka.connectors.jmx.JmxSourceConnector `
 * Maximum number of tasks
 	` tasks.max=1 `
 * Kafka topic to push the messages
