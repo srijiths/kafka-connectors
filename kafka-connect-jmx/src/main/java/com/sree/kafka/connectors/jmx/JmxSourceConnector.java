@@ -22,8 +22,8 @@ import com.sree.kafka.utils.Version;
  *
  */
 
-public class JmxConnector extends SourceConnector {
-	private static final Logger logger = LoggerFactory.getLogger(JmxConnector.class);
+public class JmxSourceConnector extends SourceConnector {
+	private static final Logger logger = LoggerFactory.getLogger(JmxSourceConnector.class);
 	private Map<String, String> configProperties;
 	JmxConfigs configs;
 

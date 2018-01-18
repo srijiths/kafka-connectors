@@ -104,7 +104,7 @@ public class JmxTask extends SourceTask {
 		try {
 			jmxConfig = new JmxConfigs(props);
 		} catch (ConfigException e) {
-			logger.error("Couldn't start " + JmxConnector.class.getName() + " due to configuration error.", e);
+			logger.error("Couldn't start " + JmxSourceConnector.class.getName() + " due to configuration error.", e);
 		}
 		kafkaTopic = jmxConfig.getString(JmxConstants.KAFKA_TOPIC);
 		jmxService = jmxConfig.getString(JmxConstants.SERVICE);
